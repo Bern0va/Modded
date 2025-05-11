@@ -308,7 +308,7 @@ end)
 		}):Play()
         wait(1)
         ScreenGui:Destroy()
-        ToggleGui:Destroy()
+        CoreGui.ToggleGui:Destroy()
     end)
 
     MainSide.Name = "MainSide"
